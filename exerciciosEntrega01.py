@@ -1,13 +1,13 @@
-#01 - Utilizando estruturas condicionais faça um programa
-# que pergunte ao usuário dois números e mostre:
-   # A soma deles;
-   # A multiplicação entre eles;
-   # A divisão inteira deles;
-   # Mostre na tela qual é o maior;
-   # Verifique se o resultado da soma é par ou impar e mostre na tela;
-   # Se a multiplicação entre eles for maior que 40, 
-   # divida pelo resultado da divisão inteira e mostre o resultado na tela. 
-   # Se não, mostre que a multiplicação não foi maior que 40.
+""" 01 - Utilizando estruturas condicionais faça um programa
+que pergunte ao usuário dois números e mostre:
+   A soma deles;
+   A multiplicação entre eles;
+   A divisão inteira deles;
+   Mostre na tela qual é o maior;
+   Verifique se o resultado da soma é par ou impar e mostre na tela;
+   Se a multiplicação entre eles for maior que 40, 
+   divida pelo resultado da divisão inteira e mostre o resultado na tela. 
+   Se não, mostre que a multiplicação não foi maior que 40. """
 
 def d(): #FUNÇÃO CRIADA PARA CHAMAR UMA DECORAÇÃO DE TEXTO SIMPLES.
    print('-=-'*20)
