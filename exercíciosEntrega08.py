@@ -18,5 +18,5 @@ if ctps != 0:
     salário = float(input('Seu salário: '))
     cadastro['Ano de contratação'] = ano2
     cadastro['Salário'] = salário
-    cadastro['Ano de aposentadoria'] = ano2 + 35
+    cadastro['Idade de aposentadoria'] = (ano2 - ano) + 35
 print(cadastro)

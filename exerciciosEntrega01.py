@@ -9,15 +9,20 @@
    # divida pelo resultado da divisão inteira e mostre o resultado na tela. 
    # Se não, mostre que a multiplicação não foi maior que 40.
 
-def d():
+def d(): #FUNÇÃO CRIADA PARA CHAMAR UMA DECORAÇÃO DE TEXTO SIMPLES.
    print('-=-'*20)
 d()
-num1 = int(input('Digite um número: '))
+
+#USUÁRIO PODE DIGITAR OS PRIMEIRO E O SEGUNDO NÚMERO.
+num1 = int(input('Digite um número: ')) 
 num2 = int(input('Digite outro número: '))
 d()
 print('--> A soma desses números é igua a {}'.format(num1+num2))
 print('--> A multiplicação entre esses números é igual a {}'.format(num1*num2))
 d()
+
+#AQUI TEMOS UMA ESTRUTRA CONDICIONAL PARA DIZER QUAL NUMERO É MAIOR OU MENOR 
+#E PARA NÃO PERMITIR QUE A DIVISÃO INTEIRA SOLICITADA NO ENUNCIADO SEJA IGUAL A 0.
 if num1>num2:
    print('--> O {} é o maior'.format(num1))
    print('--> A divisão inteira do primeiro número pelo segundo é igual a {}'.format(num1//num2))
